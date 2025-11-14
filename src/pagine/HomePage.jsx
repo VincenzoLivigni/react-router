@@ -1,3 +1,4 @@
+import Welcome from '../assets/img/photo-1645397925452-dfc04a653d13.avif'
 import Header from "../components/Header";
 
 export default function HomePage() {
@@ -7,7 +8,13 @@ export default function HomePage() {
 
             <main>
                 <>
-                    <h1>HomePage</h1>
+                    <section className='jumbo'>
+                        <img src={Welcome} />
+                    </section>
+                    <section className='benvenuto py-5'>
+                        <h3 className="text-center mb-4">Benvenuto nel nostro sito!</h3>
+                        <h5 className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia libero reiciendi</h5>
+                    </section>
                 </>
             </main>
 
