@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom"
+
 export default function footer() {
     return (
         <header>
@@ -5,13 +7,13 @@ export default function footer() {
                 <div className='container'>
                     <ul className="nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/">Homepage</a>
+                            <NavLink className="nav-link" aria-current="page" to="/">Homepage</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/abouts">Abouts</a>
+                            <NavLink className="nav-link" to="/abouts">Abouts</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/contacts">Contacts</a>
+                            <NavLink className="nav-link" to="/contacts">Contacts</NavLink>
                         </li>
                     </ul>
                 </div>
