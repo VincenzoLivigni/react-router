@@ -1,1 +1,18 @@
 @import url("bootstrap");
+
+/* header */
+nav {
+  background-color: #e4752f;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white
+}
+
+.nav-link:hover {
+  color: rgb(237, 237, 237)
+}

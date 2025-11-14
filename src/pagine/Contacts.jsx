@@ -1,9 +1,9 @@
+import Header from "../components/Header";
+
 export default function Contacts() {
     return (
         <>
-            <header>
-                <h2>Header</h2>
-            </header>
+            <Header />
 
             <main>
                 <h1>Contacts</h1>

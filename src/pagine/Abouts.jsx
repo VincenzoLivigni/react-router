@@ -1,9 +1,9 @@
+import Header from "../components/Header";
+
 export default function Abouts() {
     return (
         <>
-            <header>
-                <h2>Header</h2>
-            </header>
+            <Header />
 
             <main>
                 <h1>Abouts</h1>
