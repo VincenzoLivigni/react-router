@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Footer from '../components/Footer';
 
 export default function Contacts() {
     return (
@@ -9,9 +10,7 @@ export default function Contacts() {
                 <h1>Contacts</h1>
             </main>
 
-            <footer>
-                <h3>Footer</h3>
-            </footer>
+            <Footer />
         </>
     )
 }

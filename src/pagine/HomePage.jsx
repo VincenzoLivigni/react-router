@@ -1,4 +1,5 @@
 import Welcome from '../assets/img/photo-1645397925452-dfc04a653d13.avif'
+import Footer from '../components/Footer';
 import Header from "../components/Header";
 
 export default function HomePage() {
@@ -18,9 +19,7 @@ export default function HomePage() {
                 </>
             </main>
 
-            <footer>
-                <h3>Footer</h3>
-            </footer>
+            <Footer />
         </>
     )
 }
