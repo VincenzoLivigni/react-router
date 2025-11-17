@@ -14,7 +14,7 @@ export function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/abouts" element={<Abouts />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/products:id" element={<SingleProduct />} />
+          <Route path="/products/:id" element={<SingleProduct />} />
         </Routes>
       </BrowserRouter>
     </>

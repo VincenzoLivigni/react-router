@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from '../components/Footer';
+import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
@@ -32,13 +33,8 @@ export default function Contacts() {
                                     <div className="card-content">
                                         <img className="product" alt="" src={prodotto.image} />
                                         <div className="card-body">
-                                            <h6>Product -  <strong>{prodotto.title}</strong></h6>
-                                            <hr />
-                                            <span>Price - <strong>{prodotto.price}$</strong></span>
-                                            <hr />
-                                            <span>Category - <strong>{prodotto.category}</strong></span>
-                                            <hr />
-                                            <span>Description - <strong>{prodotto.description}</strong></span>
+                                            <h6>{prodotto.title}</h6>
+                                            <Link to={`/products/${prodotto.id}`}>View product</Link>
                                         </div>
                                     </div>
                                 </div>
