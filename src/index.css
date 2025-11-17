@@ -16,13 +16,15 @@ i {
   font-size: 1.2rem;
 }
 
-h2 {
+h2,
+h3 {
   color: #e4752f
 }
 
 h5 {
   font-weight: bold;
 }
+
 
 
 .row>p {
@@ -84,7 +86,25 @@ h5 {
   height: 100%;
 }
 
+.card-img-top {
+  width: 40%;
+}
 
+.card-image-top>img {
+  height: 300px;
+  padding-right: 20px;
+}
+
+.card-body>a {
+  color: #ff6a0d;
+}
+
+.separatore {
+  border: 1px;
+  border-color: grey;
+  border-style: solid;
+  opacity: 0.25;
+}
 
 /* footer */
 
